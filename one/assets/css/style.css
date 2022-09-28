@@ -149,6 +149,10 @@ section#about{
   width: 150px;
 }
 
+footer .navbar-brand img{
+  width: 190px;
+}
+
 .navbar-brand span{
   color: var(--primary);
 }
