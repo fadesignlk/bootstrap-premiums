@@ -178,15 +178,15 @@ footer .navbar-brand img{
 }
 
 .btn-brand{
-  background-color: var(--primary);
+  background-color: var(--secondary);
   color: var(--white);
   border-color: var(--primary);
-
+  border: none;
 }
 
 .btn-brand:hover{
   color: var(--white) !important;
-  background-color: var(--secondary) !important;
+  background-color: var(--primary) !important;
 }
 
 /* SLIDER */
