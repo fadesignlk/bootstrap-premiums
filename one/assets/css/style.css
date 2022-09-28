@@ -160,11 +160,12 @@ footer .navbar-brand img{
 .navbar-toggler{
   border: none;
   font-size:37px !important;
-}
-
-.navbar-toggler:hover{
   color: var(--primary);
 }
+
+/* .navbar-toggler:hover{
+  color: var(--primary);
+} */
 
 .navbar-toggler:focus{
   box-shadow: none;
