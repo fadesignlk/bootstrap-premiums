@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
 
 :root {
-  --green: #126A59;
-  --light-green: #5F8F8D;
+  --green: #201ea9;
+  --light-green: #100bf3;
   --white: #f3f5f8;
-  --black: #0C1E1D;
+  --black: #353449;
   --light-black: #4F5051;
   --gray: #4F5051;
   --light-blue: #A4AECD;
-  --blue: #3A639E;
+  --blue: #08122d;
 }
+
+/* 
+
+*/
 
 body{
   font-family: 'Barlow', sans-serif;
@@ -121,6 +125,10 @@ section{
   color: var(--black);
 }
 
+.navbar-brand img{
+  width: 150px;
+}
+
 .navbar-brand span{
   color: var(--green);
 }
@@ -159,11 +167,11 @@ section{
 
 /* SLIDER */
 .slide1{
-  background: linear-gradient(rgba(18, 106, 88, 0.4), rgba(18, 106, 88, 0.4)),  url('../images/2.jpg');
+  background: linear-gradient(rgb(8, 18, 45,0.4), rgb(8, 18, 45,0.4)),  url('../images/2.jpg');
 }
 
 .slide2{
-  background: linear-gradient(rgba(18, 106, 88, 0.4), rgba(18, 106, 88, 0.4)),  url('../images/1.jpg');
+  background: linear-gradient(rgb(8, 18, 45,0.4), rgb(8, 18, 45,0.4)),  url('../images/1.jpg');
 }
 
 /* OWL Carousel */
@@ -230,7 +238,7 @@ section{
 
 /* MILESTONE */
 #milestone{
-  background: linear-gradient(rgba(18, 106, 88, 0.9), rgba(18, 106, 88, 0.9)),  url('../images/1.jpg');
+  background: linear-gradient(rgb(8, 18, 45,0.4), rgb(8, 18, 45,0.4)),  url('../images/1.jpg');
 
 }
 
@@ -276,7 +284,7 @@ section{
 }
 
 .project .overlay{
-  background: linear-gradient(to bottom, rgb(12, 30, 29, 0.0), rgb(12, 30, 29, 0.99));
+  background: linear-gradient(to bottom, rgb(8, 18, 45,0.0), rgb(8, 18, 45,0.9));
   position: absolute;
   width: 100%;
   height: 240px;
@@ -330,7 +338,7 @@ section{
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(95, 143, 141, 0.8);
+  background: rgb(8, 18, 45, 0.85);
   transition: all 0.4s ease;
 opacity: 0;
 
@@ -361,7 +369,7 @@ opacity: 0;
 
 /* REVIEWS */
 #reviews{
-  background: linear-gradient(rgba(6, 6, 6, 0.85), rgba(6, 6, 6, 0.85)),  url('../images/3.jpg');
+  background: linear-gradient(rgb(8, 18, 45,0.89), rgb(8, 18, 45,0.89)),  url('../images/3.jpg');
   background-position: center !important;
   background-size: cover !important;
   background-position: center !important;
@@ -437,7 +445,7 @@ footer {
   padding: 80px 0 20px;
   color: var(--white);
   text-align: center;
-  background: linear-gradient(rgba(6, 6, 6, 0.9), rgba(6, 6, 6, 0.9)),  url('../images/1.jpg');
+  background: linear-gradient(rgb(8, 18, 45,0.89), rgb(8, 18, 45,0.89)),  url('../images/1.jpg');
   background-position: center;
 }
 
