@@ -125,6 +125,19 @@ section{
   color: var(--green);
 }
 
+.navbar-toggler{
+  border: none;
+  font-size:37px !important;
+}
+
+.navbar-toggler:hover{
+  color: var(--green);
+}
+
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+
 /* BTN */
 .btn{
   padding: 8px 20px;
