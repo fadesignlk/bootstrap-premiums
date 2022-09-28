@@ -462,6 +462,10 @@ footer .social-links a{
 }
 
 /* CONTACT MODAL */
+.modal-content{
+  border: none;
+}
+
 .form-control{
   background: rgba(95, 143, 141, 0.05);
   border-radius: 0;
